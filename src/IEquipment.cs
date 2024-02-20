@@ -4,4 +4,6 @@ public interface IEquipment
 {
     double GetPrice();
     int GetAge();
+    string GetDescription() { return "EquipmentBase"; }
+
 }
